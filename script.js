@@ -4,7 +4,7 @@ class Animal {
 		this._species = species;
 	}
 
-	get species(){
+	get species{
 	return this._species;
 	}
 
@@ -14,14 +14,14 @@ class Animal {
 }
 
 class Dog extends Animal {
-	bark(woof){
-		console.log(woof);
+	bark(){
+		console.log('The Golden Retriever makes a sound');
 	}
 }
 
 class Cat extends Animal {
-	purr(purr){
-		console.log(purr);
+	purr(){
+		console.log('The Siamese makes a sound');
 	}
 }
 
